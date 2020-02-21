@@ -1,0 +1,20 @@
+{
+	"name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+	"short_name": "ssssssssssssssssssssssssssssssss",
+	"start_url": "long.html",
+	"display": "standalone",
+	"background_color": "#34b2e0",
+	"theme_color": "#665c1b",
+	"icons": [
+		{
+			"src": "../icon/192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "../icon/512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}
