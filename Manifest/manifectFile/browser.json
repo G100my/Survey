@@ -1,7 +1,7 @@
 {
 	"name": "display: browser",
 	"short_name": "browser",
-	"start_url": "browser.html",
+	"start_url": "../pages/browser.html",
 	"display": "browser",
 	"background_color": "#34b2e0",
 	"theme_color": "#665c1b",
