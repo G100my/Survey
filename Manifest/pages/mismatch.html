@@ -1,0 +1,24 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>title: mismatch</title>
+	<link rel="manifest" href="../manifectFile/mismatch.json">
+</head>
+<body>
+	situation: 圖文不符
+	<br>
+	<br>
+	此頁面的 icon size 與 icon 本身圖檔大小不一樣。<br>
+	<ul>
+	<li>manifest 表單內的 icon size: 96x96，實際大小: 192x192。</li>
+	<li>manifest 表單內的 icon size: 128x128，實際大小: 96x96。</li>
+	<li>manifest 表單內的 icon size: 192x192，實際大小: 128x128。</li>
+	<li>manifest 表單內的 icon size: 512x512，實際大小: 720x720。</li>
+	</ul>
+	<br>
+	UA 選擇將要使用的 icon 大小是依據填寫的 icon size 值，可以圖文不符的填寫。<br>
+	假設 UA 依據某一設備所選擇的 splash screen icon 是 512x512 的大小，可以藉此讓 UA 讀取的是更大的檔案，但是這樣仍然沒辦法改變 splach sreen 上的圖示，splash sreen 上的 icon 會被 UA進行縮放，實際顯示的大小是固定的。
+	<br>
+	<a href="../index.html">回主頁</a>
+</body>
+</html>

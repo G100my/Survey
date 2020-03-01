@@ -1,0 +1,20 @@
+{
+	"name": "display: standalone",
+	"short_name": "standalone",
+	"start_url": "../pages/rectangle.html",
+	"display": "standalone",
+	"background_color": "#9f18a3",
+	"theme_color": "#346f78",
+	"icons": [
+		{
+			"src": "../icon/192x96.png",
+			"type": "image/png",
+			"sizes": "192x96"
+		},
+		{
+			"src": "../icon/512x256.png",
+			"type": "image/png",
+			"sizes": "512x256"
+		}
+	]
+}
