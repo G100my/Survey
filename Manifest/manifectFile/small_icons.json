@@ -1,0 +1,20 @@
+{
+	"name": "situation: small icons",
+	"short_name": "small icons",
+	"start_url": "../pages/small_icons.html",
+	"display": "standalone",
+	"background_color": "#34b2e0",
+	"theme_color": "#665c1b",
+	"icons": [
+		{
+			"src": "../icon/16.png",
+			"type": "image/png",
+			"sizes": "16x16"
+		},
+		{
+			"src": "../icon/32.png",
+			"type": "image/png",
+			"sizes": "32x32"
+		}
+	]
+}

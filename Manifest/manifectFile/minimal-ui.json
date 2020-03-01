@@ -1,0 +1,20 @@
+{
+	"name": "display: minimal-ui",
+	"short_name": "minimal-ui",
+	"start_url": "../pages/minimal-ui.html",
+	"display": "minimal-ui",
+	"background_color": "#34b2e0",
+	"theme_color": "#665c1b",
+	"icons": [
+		{
+			"src": "../icon/192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "../icon/512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}

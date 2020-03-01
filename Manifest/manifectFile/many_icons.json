@@ -1,0 +1,115 @@
+{
+	"name": "situation: many icons",
+	"short_name": "many icons",
+	"start_url": "../pages/many_icons.html",
+	"display": "standalone",
+	"background_color": "#34b2e0",
+	"theme_color": "#665c1b",
+	"icons": [
+		{
+			"src": "../icon/16.png",
+			"type": "image/png",
+			"sizes": "16x16"
+		},
+		{
+			"src": "../icon/32.png",
+			"type": "image/png",
+			"sizes": "32x32"
+		},
+		{
+			"src": "../icon/48.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "../icon/64.png",
+			"type": "image/png",
+			"sizes": "64x64"
+		},
+		{
+			"src": "../icon/96.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "../icon/128.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "../icon/144.png",
+			"type": "image/png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "../icon/192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "../icon/240.png",
+			"type": "image/png",
+			"sizes": "240x240"
+		},
+		{
+			"src": "../icon/256.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		},
+		{
+			"src": "../icon/288.png",
+			"type": "image/png",
+			"sizes": "288x288"
+		},
+		{
+			"src": "../icon/336.png",
+			"type": "image/png",
+			"sizes": "336x336"
+		},
+		{
+			"src": "../icon/384.png",
+			"type": "image/png",
+			"sizes": "384x384"
+		},
+		{
+			"src": "../icon/432.png",
+			"type": "image/png",
+			"sizes": "432x432"
+		},
+		{
+			"src": "../icon/480.png",
+			"type": "image/png",
+			"sizes": "480x480"
+		},
+		{
+			"src": "../icon/512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "../icon/528.png",
+			"type": "image/png",
+			"sizes": "528x528"
+		},
+		{
+			"src": "../icon/576.png",
+			"type": "image/png",
+			"sizes": "576x576"
+		},
+		{
+			"src": "../icon/624.png",
+			"type": "image/png",
+			"sizes": "624x624"
+		},
+		{
+			"src": "../icon/672.png",
+			"type": "image/png",
+			"sizes": "672x672"
+		},
+		{
+			"src": "../icon/720.png",
+			"type": "image/png",
+			"sizes": "720x720"
+		}
+	]
+}

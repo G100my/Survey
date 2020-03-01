@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>manifest Test page</title>
+
+</head>
+<body>
+  <h1>Manifest.json - Test page：</h1>
+
+  <h2>測試範圍：mobile devices</h2>
+  
+  <h2>測試項目：</h2>
+    <ul> 
+      <li>display 的 4 種顯示方式</li>
+      <li>icons size 在不同螢幕尺寸設備會由 UA 匹配到什麼尺寸的 icon</li>
+    </ul>
+  
+    <p>使用 Chrome、Firefox等瀏覽器，開啟此 Test page，點擊瀏覽器選單 - add to Home screen。
+    (有些瀏覽器不必點擊就會跳出 Install prompts)</p>
+  
+    <p>
+    除了要測試的 member 項目，其他未提及的 manifest member 會以 
+      <ul>
+        <li>display: standalone</li>
+        <li>name: 完整的測試項目 例：situation: many icons</li>
+        <li>short_name: 測試項目代稱 例：many icons</li>
+        <li>icon: 192、512</li>
+      </ul>
+      的方式呈現。
+    </p>
+  
+    <h2>Tast page - 4 個 display 的值不一樣的 manifest.json</h2>
+  
+    <ul>
+  
+      <li><a href="pages/fullscreen.html">display: fullscreen</a></li>
+      <li><a href="pages/standalone.html">display: standalone</a></li>
+      <li><a href="pages/minimal-ui.html">display: minimal-ui</a></li>
+      <li><a href="pages/browser.html">display: browser</a></li>
+    </ul>
+  
+    <h2>Tast page - 不同 icon size</h2>
+  
+    <ul>
+      <li><a href="pages/many_icons.html">多個不一樣大小的 icon 尺寸數值</a>，
+        以 Android 官方訂定 Home screen icon size 為基準，倍數增加，白底黑數字圖的數值為 其他文件 中的推薦數值。<br>
+        參考 <a href="https://github.com/GoogleChrome/lighthouse/issues/291">GitHub - GoogleChrome - lighthouse - issue:Audit: icon size coverage</a></li>
+      <li><a href="pages/small_icons.html">icon size 只提供 &lt; 48 </a></li>
+      <li><a href="pages/no_icon.html">沒有提供任何 icon</a></li>
+    </ul>
+  
+    <h2>Tast page - name、short_name</h2>
+  
+    <ul>
+      <li><a href="pages/long.html">name、short_name 都很長</a></li>
+      <li><a href="pages/short.html">name、short_name 都很短</a></li>
+      <li><a href="pages/only_name.html">只有 name </a></li>
+      <li><a href="pages/only_shortname.html">只有 short_name</a></li>
+    </ul>
+  
+    <h2>長方形 icon</h2>
+    <a href="pages/rectangle.html">icon: 192x96、512x256</a>
+
+    <h2>icon 實際大小和 manifest.json 內設定的 icon size 值不一樣時</h2>
+    <a href="pages/mismatch.html">mismatch</a>
+</body>
+</html>
+
