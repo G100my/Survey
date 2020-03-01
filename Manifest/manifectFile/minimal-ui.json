@@ -1,7 +1,7 @@
 {
 	"name": "display: minimal-ui",
 	"short_name": "minimal-ui",
-	"start_url": "minimal-ui.html",
+	"start_url": "../pages/minimal-ui.html",
 	"display": "minimal-ui",
 	"background_color": "#34b2e0",
 	"theme_color": "#665c1b",

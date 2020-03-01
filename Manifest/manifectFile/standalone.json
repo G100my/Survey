@@ -1,7 +1,7 @@
 {
 	"name": "display: standalone",
 	"short_name": "standalone",
-	"start_url": "standalone.html",
+	"start_url": "../pages/standalone.html",
 	"display": "standalone",
 	"background_color": "#34b2e0",
 	"theme_color": "#665c1b",

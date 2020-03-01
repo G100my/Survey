@@ -1,6 +1,6 @@
 {
 	"name": "situation: only name",
-	"start_url": "only_name.html",
+	"start_url": "../pages/only_name.html",
 	"display": "standalone",
 	"background_color": "#34b2e0",
 	"theme_color": "#665c1b",

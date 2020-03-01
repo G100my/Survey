@@ -1,7 +1,7 @@
 {
 	"name": "situation: small icons",
 	"short_name": "small icons",
-	"start_url": "small_icons.html",
+	"start_url": "../pages/small_icons.html",
 	"display": "standalone",
 	"background_color": "#34b2e0",
 	"theme_color": "#665c1b",

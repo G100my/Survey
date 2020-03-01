@@ -1,7 +1,7 @@
 {
 	"name": "situation: no_icon",
 	"short_name": "no_icon",
-	"start_url": "no_icon.html",
+	"start_url": "../pages/no_icon.html",
 	"display": "standalone",
 	"background_color": "#34b2e0",
 	"theme_color": "#665c1b"

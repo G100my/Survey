@@ -1,7 +1,7 @@
 {
 	"name": "situation: many icons",
 	"short_name": "many icons",
-	"start_url": "many_icons.html",
+	"start_url": "../pages/many_icons.html",
 	"display": "standalone",
 	"background_color": "#34b2e0",
 	"theme_color": "#665c1b",

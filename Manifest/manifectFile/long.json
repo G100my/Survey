@@ -1,7 +1,7 @@
 {
 	"name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
 	"short_name": "ssssssssssssssssssssssssssssssss",
-	"start_url": "long.html",
+	"start_url": "../pages/long.html",
 	"display": "standalone",
 	"background_color": "#34b2e0",
 	"theme_color": "#665c1b",

@@ -1,7 +1,7 @@
 {
 	"name": "display: fullscreen",
 	"short_name": "fullscreen",
-	"start_url": "fullscreen.html",
+	"start_url": "../pages/fullscreen.html",
 	"display": "fullscreen",
 	"background_color": "#34b2e0",
 	"theme_color": "#665c1b",
